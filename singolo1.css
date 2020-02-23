@@ -149,3 +149,86 @@ body {
   top: 174px;
   left: 385px;
 }
+
+/* Services */
+.services {
+  background-color: #f2f2f2;
+  width: 100%;
+}
+
+.services-wrapper {
+  padding-top: 59px;
+  padding-bottom: 30px;
+}
+
+.services-wrapper p {
+  color: #767e9e;
+}
+
+.services-wrapper > p {
+  margin-top: 19px;
+  line-height: 1.7;
+  font-weight: 300;
+  font-size: 18px;
+  text-align: justify;
+}
+
+.services-elements {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 45px;
+}
+
+.service {
+  width: 220px;
+  margin-bottom: 31px;
+  padding-left: 80px;
+  background: transparent no-repeat top left;
+}
+
+.service.custom-design {
+  background-image: url("assets/pen.png");
+}
+
+.service.inovative-ideas {
+  background-image: url("assets/lamp.png");
+}
+
+.service.love-is-the-answer {
+  background-image: url("assets/heart.png");
+}
+
+.service.responsive-layout {
+  background-image: url("assets/phone.png");
+}
+
+.service.support-24-7 {
+  background-image: url("assets/bubble.png");
+}
+
+.service.feel-like-a-star {
+  background-image: url("assets/star.png");
+}
+
+.services-wrapper h2 {
+  font-size: 30px;
+  font-weight: 900;
+  color: #666d89;
+}
+
+.service h3 {
+  font-size: 18px;
+  line-height: 1.1;
+  font-weight: 900;
+  color: #666d89;
+}
+
+.service p {
+  margin-top: 12px;
+  max-height: 65px;
+  overflow: hidden;
+  font-size: 12px;
+  line-height: 1.7;
+  text-align: justify;
+}
