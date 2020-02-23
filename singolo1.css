@@ -100,3 +100,52 @@ body {
   color: #494e62;
   padding-right: 13px;
 }
+
+/* Slider */
+#slider {
+  height: 590px;
+  background-color: #f06c64;
+  border-bottom: 10px solid #ea676b;
+  position: relative;
+}
+
+.arrow {
+  display: inline-block;
+  width: 16px;
+  height: 27px;
+  background-size: cover;
+  cursor: pointer;
+  position: absolute;
+  top: 281px;
+}
+
+.arrow-left, .arrow-right {
+  background-image: url(assets/arrow.svg);
+  opacity: 0.2;
+}
+
+.arrow-right {
+  right: 0px;
+  transform: rotate(180deg);
+}
+
+.arrow-left:active, .arrow-right:active  {
+  background-image: url(assets/arrow.svg);
+  opacity: 0.8;
+}
+
+.arrow-left:hover, .arrow-right:hover {
+  opacity: 0.75;
+}
+
+.iphone-vertical {
+  position: absolute;
+  top: 53px;
+  left: 72px;
+}
+
+.iphone-horizontal {
+  position: absolute;
+  top: 174px;
+  left: 385px;
+}
