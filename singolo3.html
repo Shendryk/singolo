@@ -16,12 +16,12 @@
         <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
       
         <div class="contact-form-info">
-          <form class="contact-form" method="POST">
+          <form class="contact-form" method="POST" action="form.php">
             <input type="text" name="name" placeholder="Name (Required)" required>
             <input type="email" name="email" placeholder="Email (Required)" required>
             <input type="text" name="subject" placeholder="Subject">
-            <textarea name="describe" cols="30" rows="13" placeholder="Describe your project in detail..."></textarea>
-            <input class="contact-form-submit"type="submit">
+            <textarea class="contact-form-textarea" name="describe" cols="30" rows="13" placeholder="Describe your project in detail..."></textarea>
+            <input class="contact-form-submit" type="submit">
           </form>
           <div class="contact-info">
             <h3>Contact Information</h3>
@@ -36,7 +36,16 @@
       </div>
     </div>
   </section>
-  <footer>
+  <footer class="footer">
+    <div class="wrapper">
+      <div class="copyright"><p>© Copyright 2013</p></div>
+      <div class="social-icons">
+        <a class="icon icon-facebook" href="#"></a>
+        <a class="icon icon-google_plus" href="#"></a>
+        <a class="icon icon-twitter" href="#"></a>
+        <a class="icon icon-linkedin" href="#"></a>
+      </div>
+    </div>
     
   </footer>
 </body>
