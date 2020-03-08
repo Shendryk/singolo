@@ -193,36 +193,29 @@ body {
   width: 220px;
   margin-bottom: 32px;
   padding-left: 80px;
-  /* background: transparent no-repeat top left; */
 }
 
 .service.custom-design {
-  /* background-image: url("assets/pen.png"); */
   background: url(assets/pen.png) no-repeat 1px 2px;
 }
 
 .service.inovative-ideas {
-  /* background-image: url("assets/lamp.png"); */
   background: url("assets/lamp.png") no-repeat 0px 2px;
 }
 
 .service.love-is-the-answer {
-  /* background-image: url("assets/heart.png"); */
   background: url("assets/heart.png") no-repeat 0px 2px;
 }
 
 .service.responsive-layout {
-  /* background-image: url("assets/phone.png"); */
   background: url("assets/phone.png") no-repeat 1px 1px;
 }
 
 .service.support-24-7 {
-  /* background-image: url("assets/bubble.png"); */
   background: url("assets/bubble.png") no-repeat 0px 1px;
 }
 
 .service.feel-like-a-star {
-  /* background-image: url("assets/star.png"); */
   background: url("assets/star.png") no-repeat 0px 1px;
 }
 
@@ -419,7 +412,6 @@ body {
 
 .get-a-quote {
   background-color: #f06c64;
-  /* padding-bottom: 36px; */
   border-bottom: 6px solid #ea676b;
   color: #f0d8d9;
 }
@@ -481,13 +473,6 @@ body {
   letter-spacing: -0.01px;
 }
 
-/* input, textarea {
-  margin-bottom: 16px;
-  max-height: 202px;
-  resize: none;
-  font-family: "Lato", "Arial", sans-serif;
-} */
-
 input, textarea {
   border: none;
   border-radius: 5px;
@@ -532,6 +517,10 @@ input::placeholder, textarea::placeholder {
 .contact p, .contact a {
   color: #f0d8d9;
   padding-left: 3px;
+}
+
+.contact a:hover {
+  color: #d6564f;
 }
 
 .contact .icon {
