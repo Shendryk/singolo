@@ -45,9 +45,10 @@ a:hover {
   color: #f06c64;
 }
 
-body {
+html, body {
   font-family: Lato, sans-serif;
   font-weight: 400;
+  scroll-behavior: smooth;
 }
 
 .wrapper {
@@ -58,12 +59,19 @@ body {
   position: relative;
 }
 
+
+
+
+
 /* Header */
 
 .header {
   height: 90px;
   background-color: #2d303a;
   border-bottom: 5px solid #323746;
+  position: sticky;
+  top:0px;
+  z-index: 100;
 }
 
 .navigation {
@@ -106,6 +114,67 @@ body {
   color: #494e62;
   padding-right: 13px;
 }
+
+/* new header */
+/* .container {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+.header {
+  background: #f56262;
+  color: #fff;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  padding: 10px 0;
+}
+
+.logo {
+  flex-grow: 0.5;
+  margin: 10px 15px 10px auto;
+}
+
+.menu {
+  flex-grow: 0.5;
+  text-align: right;
+  margin: 10px 0;
+}
+
+.logo__title {
+  display: inline-block;
+  font-size: 1.8rem;
+  line-height: 1.5rem;
+  vertical-align: bottom;
+}
+
+.logo__image {
+  vertical-align: bottom;
+}
+
+.menuItem {
+  margin: 0 15px;
+}
+
+.titles {
+  text-align: center;
+  padding: 20px 0;
+} */
+
+
+
+
+
+
+
+
+
+
+
 
 /* Slider */
 
