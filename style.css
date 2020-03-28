@@ -57,6 +57,7 @@ html, body {
   overflow: hidden;
   height: 100%;
   position: relative;
+  padding: 0 40px;
 }
 
 
@@ -201,7 +202,7 @@ html, body {
 }
 
 .arrow-right {
-  right: 0px;
+  right: 40px;
   transform: rotate(180deg);
 }
 
@@ -217,13 +218,13 @@ html, body {
 .iphone-vertical {
   position: absolute;
   top: 53px;
-  left: 72px;
+  left: 112px;
 }
 
 .iphone-horizontal {
   position: absolute;
   top: 174px;
-  left: 385px;
+  left: 425px;
 }
 
 /* Services */
@@ -348,8 +349,8 @@ html, body {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  height: 601px;
-  overflow: hidden;
+  /* height: 601px; */
+  /* overflow: hidden; */
 }
 
 .portfolio-images img {
@@ -416,11 +417,12 @@ html, body {
 }
 
 .about-us-employee {
-  width: 300px;
+  max-width: 32%;
 }
 
 .about-us-employee img {
   margin-bottom: 14px;
+  width: 100%;
 }
 
 .about-us-employee h3 {
@@ -629,4 +631,23 @@ input::placeholder, textarea::placeholder {
   margin-top: 0px;
   margin-right: 0px;
   margin-left: 5px;
+}
+
+@media (max-width: 768px) {
+  .portfolio-images {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: auto;
+    /* overflow: hidden; */
+}
+
+  .portfolio-images img {
+    /* margin-bottom: 20px; */
+    width: 31.5%;
+}
+.about-us-employee {
+  max-width: 31.88%;
+}
+ 
 }
