@@ -332,7 +332,7 @@ html, body {
 
 .portfolio {
   background-color: #2d303a;
-  padding-bottom: 37px;
+  padding-bottom: 17px;
   border-bottom: 6px solid #323746;
 }
 
@@ -526,6 +526,7 @@ html, body {
 
 .contact-info {
   padding-left: 20px;
+  width: 49%;
 }
 
 .contact-form>* {
@@ -534,6 +535,7 @@ html, body {
 
 .contact-form {
   padding-top: 2px;
+  width: 100%;
 }
 
 .contact-info p {
@@ -550,7 +552,7 @@ input, textarea {
   background-color: #d6564f;
   color: #f48c8f;
   padding: 12px 15px;
-  width: 619px;
+  width: 100%;
   box-sizing: border-box;
   font-weight: 400;
   font-size: 12px;
@@ -648,6 +650,74 @@ input::placeholder, textarea::placeholder {
 }
 .about-us-employee {
   max-width: 31.88%;
+}
+.get-a-quote {
+  padding-bottom: 47px;
+}
+ 
+}
+
+@media (max-width: 375px) {
+
+  .wrapper {
+    /* margin: 0 auto;
+    max-width: 940px;
+    overflow: hidden;
+    height: 100%;
+    position: relative; */
+    padding: 0 30px;
+}
+
+  .portfolio-images {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: auto;
+    /* overflow: hidden; */
+}
+
+  .portfolio-images img {
+    margin-bottom: 10px;
+    width: 48.5%;
+}
+.about-us {
+  padding-bottom: 0;
+}
+.about-us .services-wrapper {
+  /* padding-top: 60px; */
+  padding-bottom: 0;
+}
+
+.about-us-staff {
+  flex-wrap: wrap;
+ 
+}
+
+.about-us-employee {
+  max-width: 100%;
+  margin-bottom: 50px;
+}
+
+.contact-form-info { 
+  flex-wrap: wrap;
+}
+.contact-form { 
+  padding-bottom: 50px;
+}
+
+
+.contact-info {
+  padding-left: 0;
+  width: 100%;
+}
+
+.copyright {
+  display: none;
+}
+.footer .wrapper {
+  /* display: flex; */
+  justify-content: center;
+  /* align-items: center; */
 }
  
 }
